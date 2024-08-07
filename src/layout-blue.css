@@ -38,7 +38,7 @@
       transition: background-color 0.3s;
     }
     .landing-body .landing-wrapper #landing-menu li a:hover {
-      background-color: #252529;
+      background-color: rgb(197, 1, 1);
       color: #ffffff;
     }
     .landing-body .landing-wrapper #header {
@@ -84,35 +84,41 @@
       margin-bottom: 24px;
       color: #e4e4e7;
     }
-    .landing-body .landing-wrapper #features {
-      padding: 42px 140px;
-      background-color: #ffffff;
-      text-align: center;
-    }
-    .landing-body .landing-wrapper #features h1 {
-      font-size: 28px;
-      color: #252529;
-      margin: 0 0 6px 0;
-    }
-    .landing-body .landing-wrapper #features p {
-      font-size: 21px;
-      color: #8b8b90;
-      margin: 0;
-    }
-    .landing-body .landing-wrapper #features .grid {
-      margin-top: 42px;
-    }
-    .landing-body .landing-wrapper #features .grid .col-12 {
-      padding: 1em;
-    }
-    .landing-body .landing-wrapper #features .grid .feature-box {
-      padding: 24px;
-      -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.08);
-      -moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.08);
-      box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.08);
-      height: 96px;
-    }
-    .landing-body .landing-wrapper #promo .feature-box {
+    .landing-body .landing-wrapper #about,
+    .landing-body .landing-wrapper #team {
+        padding: 42px 140px;
+        background-color: #ffffff;
+        text-align: center;
+      }
+      .landing-body .landing-wrapper #about h1,
+      .landing-body .landing-wrapper #team h1 {
+        font-size: 28px;
+        color: #252529;
+        margin: 0 0 6px 0;
+      }
+    .landing-body .landing-wrapper #about p,
+    .landing-body .landing-wrapper #team p {
+        font-size: 21px;
+        color: #8b8b90;
+        margin: 0;
+      }
+    .landing-body .landing-wrapper #about .grid,
+    .landing-body .landing-wrapper #team .grid {
+        margin-top: 42px;
+      }
+    .landing-body .landing-wrapper #about .grid .col-12,
+    .landing-body .landing-wrapper #team .grid .col-12 {
+        padding: 1em;
+      }
+    .landing-body .landing-wrapper #about .grid .feature-box,
+    .landing-body .landing-wrapper #team .grid .feature-box {
+        padding: 24px;
+        -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.08);
+        -moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.08);
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.08);
+        height: 96px;
+      }
+    .landing-body .landing-wrapper #areas .feature-box {
       padding: 24px;
       -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.08);
       -moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.08);
@@ -125,108 +131,76 @@
       color: #8b8b90;
       font-size: 18px;
   }
-    .landing-body .landing-wrapper #features .grid .feature-box h3 {
-      font-size: 21px;
-      font-weight: 700;
-      color: #252529;
-      margin: 8px 0;
-    }
-    .landing-body .landing-wrapper #features .grid .feature-box p {
-      margin: 0;
-      color: #8b8b90;
-      font-size: 18px;
-    }
-    .landing-body .landing-wrapper #promo {
+    .landing-body .landing-wrapper #about .grid .feature-box h3,
+    .landing-body .landing-wrapper #team .grid .feature-box h3 {
+        font-size: 21px;
+        font-weight: 700;
+        color: #252529;
+        margin: 8px 0;
+      }
+    .landing-body .landing-wrapper #about .grid .feature-box p,
+    .landing-body .landing-wrapper #team .grid .feature-box p {
+        margin: 0;
+        color: #8b8b90;
+        font-size: 18px;
+      }
+    .landing-body .landing-wrapper #areas {
       padding: 42px 140px;
       border-top: 5px solid #c9b4a0;
       background-color: #f2f2f2;
       position: relative;
       text-align: center;
     }
-    .landing-body .landing-wrapper #promo .div-flex {
+    .landing-body .landing-wrapper #areas .div-flex {
       display: flex;
     }
-    .landing-body .landing-wrapper #promo h1 {
+    .landing-body .landing-wrapper #areas h1 {
       font-size: 28px;
       color: #252529;
       margin: 0 0 16px 0;
     }
-    .landing-body .landing-wrapper #promo p {
+    .landing-body .landing-wrapper #areas p {
       font-size: 17px;
       color: #525257;
       margin: 0 0 16px 0;
     }
-    .landing-body .landing-wrapper #promo img {
+    .landing-body .landing-wrapper #areas img {
       position: absolute;
       right: 140px;
       top: 50%;
       height: 100px;
       margin-top: -50px;
     }
-    .landing-body .landing-wrapper #pricing {
+    .landing-body .landing-wrapper #contact {
       padding: 42px 140px;
       background-color: #ffffff;
       text-align: center;
     }
-    .landing-body .landing-wrapper #pricing .button-div {
+    .landing-body .landing-wrapper #contact button {
+        background: rgb(204, 21, 21);
+    }
+    .landing-body .landing-wrapper #contact .button-div {
       display: flex;
       margin-left: 24px;
     }
-    .landing-body .landing-wrapper #pricing > h1 {
+    .landing-body .landing-wrapper #contact > h1 {
       font-size: 28px;
       color: #252529;
       margin: 0 0 6px 0;
     }
-    .landing-body .landing-wrapper #pricing > p {
+    .landing-body .landing-wrapper #contact > p {
       font-size: 21px;
       color: #8b8b90;
       margin: 0;
     }
-    .landing-body .landing-wrapper #pricing .grid {
+    .landing-body .landing-wrapper #contact .grid {
       margin-top: 42px;
     }
-    .landing-body .landing-wrapper #pricing .grid .col-12 {
+    .landing-body .landing-wrapper #contact .grid .col-12 {
       padding: 28px;
       text-align: left;
     }
-    .landing-body .landing-wrapper #pricing .pricing-box {
-      min-height: 450px;
-      padding: 16px 48px;
-      background-color: #f2f2f2;
-      color: #525257;
-      border: 2px solid transparent;
-      -moz-transition: border-color 0.3s;
-      -o-transition: border-color 0.3s;
-      -webkit-transition: border-color 0.3s;
-      transition: border-color 0.3s;
-      -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.08);
-      -moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.08);
-      box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.08);
-    }
-    .landing-body .landing-wrapper #pricing .pricing-box h3 {
-      margin: 0 0 42px 0;
-    }
-    .landing-body .landing-wrapper #pricing .pricing-box .pricing-intro {
-      color: #8b8b90;
-    }
-    .landing-body .landing-wrapper #pricing .pricing-box p {
-      font-size: 14px;
-      margin: 14px 0;
-    }
-    .landing-body .landing-wrapper #pricing .pricing-box ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-    }
-    .landing-body .landing-wrapper #pricing .pricing-box ul li {
-      padding: 12px;
-    }
-    .landing-body .landing-wrapper #pricing .pricing-box ul li i {
-      color: #1fc4ac;
-    }
-    .landing-body .landing-wrapper #pricing .pricing-box:hover {
-      border-color: #c9b4a0;
-    }
+
     .landing-body .landing-wrapper #multimedia {
       padding: 42px 140px;
       text-align: center;
@@ -263,8 +237,9 @@
     @media screen and (min-width: 992px) {
       .landing-body .landing-wrapper #header .header-content {
         background: url("../src/assets/fundo2.jpg") no-repeat;
-        background-position: right 50%;
-        background-size: 100%;
+        /* background-position: right 50%; */
+        background-size: 2000px 600px;
+        height: 600px;
       }
     }
     @media screen and (max-width: 991px) {
@@ -315,21 +290,22 @@
         background-position: right 50%;
         background-size: 100%;
       }
-      .landing-body .landing-wrapper #features {
+      .landing-body .landing-wrapper #about,
+      .landing-body .landing-wrapper #team {
         padding-left: 20px;
         padding-right: 20px;
       }
-      .landing-body .landing-wrapper #promo {
+      .landing-body .landing-wrapper #areas {
         padding-left: 20px;
         padding-right: 20px;
         text-align: center;
       }
-      .landing-body .landing-wrapper #promo img {
+      .landing-body .landing-wrapper #areas img {
         position: static;
         margin: 16px auto 0 auto;
         display: block;
       }
-      .landing-body .landing-wrapper #pricing {
+      .landing-body .landing-wrapper #contact {
         padding-left: 20px;
         padding-right: 20px;
       }
@@ -361,11 +337,12 @@
         color: #fff;
       }
 
-      .landing-body .landing-wrapper #features .grid .feature-box p {
-          font-size: 12px;
-      }
+      .landing-body .landing-wrapper #about .grid .feature-box p,
+      .landing-body .landing-wrapper #team .grid .feature-box p {
+        font-size: 12px;
+    }
 
-      .landing-body .landing-wrapper #promo .feature-box {
+      .landing-body .landing-wrapper #team .feature-box {
           font-size: 12px;
           padding: 8px;
           margin: 0 12px;
