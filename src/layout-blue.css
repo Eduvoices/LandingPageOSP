@@ -11,6 +11,24 @@
       padding: 0;
       margin: 0;
     }
+    .landing-body .landing-wrapper .info {
+        height: 40px;
+        width: 100%;
+        background-color: #c50101;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-weight: bold;
+        padding: 16px;
+    }
+    .landing-body .landing-wrapper .info div {
+        display: flex;
+        align-items: center;
+    }
+    .landing-body .landing-wrapper .info div span {
+        margin-left: 8px;
+    }
     .landing-body .landing-wrapper #landing-menu {
       list-style-type: none;
       float: right;
@@ -69,6 +87,12 @@
     }
     .landing-body .landing-wrapper #header .header-content {
       padding: 120px 0 120px 140px;
+      position: relative;
+    }
+    .landing-body .landing-wrapper .sectionBreak {
+        height: 40px;
+        background-color: #cc1515;
+        width: 100%;
     }
 
     .landing-body .landing-wrapper #header .header-content h1 {
@@ -78,17 +102,29 @@
       margin-top: 48px;
       margin-bottom: 24px;
       max-width: 400px;
+      color: #cc1515;
+      max-width: 440px;
     }
     .landing-body .landing-wrapper #header .header-content p {
       font-size: 17px;
       margin-bottom: 24px;
-      color: #e4e4e7;
+      color: #000;
+    }
+    .landing-body .landing-wrapper #header .header-content span {
+        position: absolute;
+        right: 0;
+        bottom: 0;
     }
     .landing-body .landing-wrapper #about,
     .landing-body .landing-wrapper #team {
         padding: 42px 140px;
         background-color: #ffffff;
         text-align: center;
+      }
+      .landing-body .landing-wrapper #about {
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
       .landing-body .landing-wrapper #about h1,
       .landing-body .landing-wrapper #team h1 {
@@ -110,13 +146,19 @@
     .landing-body .landing-wrapper #team .grid .col-12 {
         padding: 1em;
       }
-    .landing-body .landing-wrapper #about .grid .feature-box,
-    .landing-body .landing-wrapper #team .grid .feature-box {
+    .landing-body .landing-wrapper #about .grid .feature-box {
         padding: 24px;
         -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.08);
         -moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.08);
         box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.08);
         height: 96px;
+      }
+      .landing-body .landing-wrapper #team .grid .feature-box {
+        padding: 24px;
+        -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.08);
+        -moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.08);
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.08);
+        height: 280px;
       }
     .landing-body .landing-wrapper #areas .feature-box {
       padding: 24px;
@@ -142,34 +184,43 @@
     .landing-body .landing-wrapper #team .grid .feature-box p {
         margin: 0;
         color: #8b8b90;
-        font-size: 18px;
+        font-size: 16px;
       }
     .landing-body .landing-wrapper #areas {
       padding: 42px 140px;
-      border-top: 5px solid #c9b4a0;
-      background-color: #f2f2f2;
+      background-color: #fff;
       position: relative;
       text-align: center;
     }
     .landing-body .landing-wrapper #areas .div-flex {
       display: flex;
     }
-    .landing-body .landing-wrapper #areas h1 {
-      font-size: 28px;
+    .landing-body .landing-wrapper #areas h3 {
+      font-size: 1.75rem;
       color: #252529;
-      margin: 0 0 16px 0;
+      margin-bottom: 48px;
     }
     .landing-body .landing-wrapper #areas p {
       font-size: 17px;
       color: #525257;
       margin: 0 0 16px 0;
     }
-    .landing-body .landing-wrapper #areas img {
-      position: absolute;
-      right: 140px;
-      top: 50%;
-      height: 100px;
-      margin-top: -50px;
+    .landing-body .landing-wrapper #areas div .areaBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 120px;
+        background-color: #ba1414;
+    }
+
+    .landing-body .landing-wrapper #areas div .areaBox i img {
+        width: 32px;
+        height: 32px;
+        position: unset;
+    }
+    .landing-body .landing-wrapper #areas div .areaBox span {
+        color: #fff;
     }
     .landing-body .landing-wrapper #contact {
       padding: 42px 140px;
@@ -183,8 +234,8 @@
       display: flex;
       margin-left: 24px;
     }
-    .landing-body .landing-wrapper #contact > h1 {
-      font-size: 28px;
+    .landing-body .landing-wrapper #contact > h3 {
+      font-size: 1.75rem;
       color: #252529;
       margin: 0 0 6px 0;
     }
@@ -224,14 +275,20 @@
       height: 315px;
     }
     .landing-body .landing-wrapper #footer {
-      background-color: #433939;
+      background-color: #cc1515;
       padding: 42px 140px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
     }
     .landing-body .landing-wrapper #footer .footer-logo {
-      height: 64px;
+      height: 80px;
+    }
+    .landing-body .landing-wrapper #footer .offices {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        color: #fff;
+        text-align: center;
+        height: 104px;
     }
 
     @media screen and (min-width: 992px) {

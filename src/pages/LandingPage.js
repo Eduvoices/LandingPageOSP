@@ -21,30 +21,26 @@ const LandingPage = () => {
     return (
         <div className="landing-body">
             <div className="landing-wrapper">
-                <div className='info' style={{
-                    height:'40px',
-                    width:'100%',
-                    backgroundColor:'#c50101',
-                    color:'#fff',
-                    display:'flex',
-                    alignItems: 'center',
-                    justifyContent:'space-around',
-                    fontWeight:'bold'
-                }}>
-                    <div style={{display:'flex', alignItems:'center'}}>
+                <div className='info'>
+                    <div>
                         <i className="pi pi-clock"></i>
-                        <span style={{marginLeft:'8px'}}>08:00 - 18:00</span>
+                        <span>08:00 - 18:00</span>
                     </div>
 
-                    <div style={{display:'flex', alignItems:'center'}}>
+                    <div>
+                        <i className="pi pi-mail"></i>
+                        <span>atendimento@advprevpr.com.br</span>
+                    </div>
+
+                    {/* <div>
                         <i className="pi pi-phone"></i>
-                        <span style={{marginLeft:'8px'}}>(43) 3172-4700</span>
+                        <span>(43) 3172-4700</span>
                     </div>
 
-                    <div style={{display:'flex', alignItems:'center'}}>
+                    <div>
                         <i className="pi pi-map-marker"></i>
-                        <span style={{marginLeft:'8px'}}>Rua Flamingos - 1079 - Arapongas/PR</span>
-                    </div>
+                        <span>Rua Flamingos - 1079 - Arapongas/PR</span>
+                    </div> */}
 
                 </div>
 
@@ -96,29 +92,17 @@ const LandingPage = () => {
                             </ul>
                     </div>
 
-                    <div className="header-content" style={{position:'relative'}}>
-                        <h1 style={{
-                            color:'#cc1515',
-                            maxWidth:'440px'
-                        }}>Oliveira, Silva & Pelosi</h1>
-                        <p style={{color:'#000'}}>Escritório de Advocacia</p>
+                    <div className="header-content">
+                        <h1>Oliveira, Silva & Pelosi</h1>
+                        <p>Escritório de Advocacia</p>
 
-                        <span style={{
-                            position:'absolute',
-                            bottom:'0',
-                            right:'0'
-                        }}>Designed by Freepik</span>
+                        <span>Designed by Freepik</span>
                     </div>
                 </div>
 
-                <div style={{height:'40px', backgroundColor:'#cc1515', width:'100%'}}></div>
+                <div className='sectionBreak'></div>
 
-                <div id="about" style={{
-                    display:'flex',
-                    alignItems:'center',
-                    justifyContent:'center',
-                    backgroundColor:'rgb(244 244 244)'
-                }}>
+                <div id="about">
                     <img src={fachada} alt='Fachada do escritório' style={{width:'360px'}}/>
                     <div style={{
                         textAlign:'justify',
@@ -130,31 +114,31 @@ const LandingPage = () => {
                     </div>
                 </div>
 
-                <div style={{height:'40px', backgroundColor:'#cc1515', width:'100%'}}></div>
+                <div className='sectionBreak'></div>
 
-                <div id="areas" style={{backgroundColor:'#fff', border:'none'}}>
-                    <h3 style={{marginBottom:'48px'}}>Áreas de atuação</h3>
+                <div id="areas">
+                    <h3>Áreas de atuação</h3>
 
                     <div className='div-flex'>
 
-                        <p className='feature-box' style={{display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'space-around', height:'120px', backgroundColor:'#ba1414'}}>
-                            <i><img src={idoso} alt='' style={{width:'32px', height:'32px', position:'unset'}}/></i>
-                            <span style={{color:'#fff'}}>Direito previdenciário</span>
+                        <p className='feature-box areaBox'>
+                            <i><img src={idoso} alt=''/></i>
+                            <span>Direito previdenciário</span>
                         </p>
 
-                        <p className='feature-box' style={{display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'space-around', height:'120px', backgroundColor:'#ba1414'}}>
-                            <i><img src={contrato} alt='' style={{width:'32px', height:'32px', position:'unset'}}/></i>
-                            <span style={{color:'#fff'}}>Direito civil</span>
+                        <p className='feature-box areaBox'>
+                            <i><img src={contrato} alt=''/></i>
+                            <span>Direito civil</span>
                         </p>
 
-                        <p className='feature-box' style={{display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'space-around', height:'120px', backgroundColor:'#ba1414'}}>
-                            <i><img src={trabalhador} alt='' style={{width:'32px', height:'32px', position:'unset'}}/></i>
-                            <span style={{color:'#fff'}}>Direito do trabalho</span>
+                        <p className='feature-box areaBox'>
+                            <i><img src={trabalhador} alt=''/></i>
+                            <span>Direito do trabalho</span>
                         </p>
 
-                        <p className='feature-box' style={{display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'space-around', height:'120px', backgroundColor:'#ba1414'}}>
-                            <i><img src={familia} alt='' style={{width:'32px', height:'32px', position:'unset'}}/></i>
-                            <span style={{color:'#fff'}}>Direito de família</span>
+                        <p className='feature-box areaBox'>
+                            <i><img src={familia} alt=''/></i>
+                            <span>Direito de família</span>
                         </p>
                     </div>
 
@@ -166,43 +150,43 @@ const LandingPage = () => {
                     <h3>Equipe</h3>
                     <div className="grid">
                         <div className="col-12 md:col-12 lg:col-4">
-                            <div className="feature-box" style={{height:'280px'}}>
+                            <div className="feature-box">
                                 <img src='https://placehold.co/320x200' alt=''/>
-                                <p style={{fontSize:'16px'}}>Evandro Cesar Mello de Oliveira - OAB/PR 38.387</p>
+                                <p>Evandro Cesar Mello de Oliveira - OAB/PR 38.387</p>
                                 <span>Direito Previdenciário</span>
                             </div>
                         </div>
 
                         <div className="col-12 md:col-12 lg:col-4">
-                            <div className="feature-box" style={{height:'280px'}}>
+                            <div className="feature-box">
                                 <img src='https://placehold.co/320x200' alt=''/>
-                                <p style={{fontSize:'16px'}}>Alexandre da Silva - OAB/PR 40.273</p>
+                                <p>Alexandre da Silva - OAB/PR 40.273</p>
                                 <span>Direito Previdenciário</span>
                             </div>
                         </div>
 
                         <div className="col-12 md:col-12 lg:col-4">
-                            <div className="feature-box" style={{height:'280px'}}>
+                            <div className="feature-box">
                                 <img src='https://placehold.co/320x200' alt=''/>
-                                <p style={{fontSize:'16px'}}>Reynaldo Bezerra Pelosi - OAB/PR 65.803</p>
+                                <p>Reynaldo Bezerra Pelosi - OAB/PR 65.803</p>
                                 <span>Direito Previdenciário</span>
                             </div>
                         </div>
 
                         <div className="col-12 md:col-12 lg:col-4">
-                            <div className="feature-box" style={{height:'280px'}}>
+                            <div className="feature-box">
                                 <img src='https://placehold.co/320x200' alt=''/>
-                                <p style={{fontSize:'16px'}}>Eduardo Marcelo Pinotti - OAB/PR 43.765</p>
+                                <p>Eduardo Marcelo Pinotti - OAB/PR 43.765</p>
                                 <span>Direito Civil, Trabalho e Família</span>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div style={{height:'40px', backgroundColor:'#cc1515', width:'100%'}}></div>
+                <div className='sectionBreak'></div>
 
                 <div id="contact">
-                    <h1>Contato</h1>
+                    <h3>Contato</h3>
                     <div className="col-12">
                         <div className="card">
                             <form action='https://formsubmit.co/atendimento@advprev.com.br' method="POST">
@@ -229,10 +213,31 @@ const LandingPage = () => {
                     </div>
                 </div>
 
-                <div id="footer" style={{backgroundColor:'#cc1515'}}>
+                <div id="footer" >
                     <div className="grid">
-                        <div className="col-12 lg:col-4">
+                        <div className="col-3 lg:col-3">
                             <img src={logo} alt="babylon-layout" className="footer-logo"/>
+                        </div>
+                        <div className="col-3 lg:col-3 offices">
+                            <span>Arapongas - PR</span>
+                            <span>Fone: (43) 3172-4700</span>
+                            <span>Rua Flamingos, 1079 - Centro</span>
+                            <span>CEP: 86700-150</span>
+                        </div>
+
+                        <div className="col-3 lg:col-3 offices">
+                            <span>Astorga - PR</span>
+                            <span>Fone: (44) 3234-1696</span>
+                            <span>Rua Nossa Senhora Aparecida, 156</span>
+                            <span>(esquina c/ Rua Beija Flor)</span>
+                            <span>CEP: 86730-000</span>
+                        </div>
+
+                        <div className="col-3 lg:col-3 offices">
+                            <span>Rolândia - PR</span>
+                            <span>Fone: (43) 99924-9744</span>
+                            <span>Rua Romário Martns, 28 - Centro</span>
+                            <span>CEP: 86600-103</span>
                         </div>
                     </div>
                 </div>
