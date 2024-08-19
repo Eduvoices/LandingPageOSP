@@ -276,7 +276,22 @@
     }
     .landing-body .landing-wrapper #footer {
       background-color: #cc1515;
-      padding: 42px 140px;
+      padding: 42px 0px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .landing-body .landing-wrapper #footer .offices-info {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        margin-top: 48px;
+    }
+    .landing-body .landing-wrapper #footer .footerSectionBreak {
+        height: 20px;
+        background-color: #fff;
+        width: 100vw;
     }
     .landing-body .landing-wrapper #footer .footer-logo {
       height: 80px;

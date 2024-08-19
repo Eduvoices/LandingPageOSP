@@ -32,16 +32,6 @@ const LandingPage = () => {
                         <span>atendimento@advprevpr.com.br</span>
                     </div>
 
-                    {/* <div>
-                        <i className="pi pi-phone"></i>
-                        <span>(43) 3172-4700</span>
-                    </div>
-
-                    <div>
-                        <i className="pi pi-map-marker"></i>
-                        <span>Rua Flamingos - 1079 - Arapongas/PR</span>
-                    </div> */}
-
                 </div>
 
                 <div id="header">
@@ -215,9 +205,35 @@ const LandingPage = () => {
 
                 <div id="footer" >
                     <div className="grid">
-                        <div className="col-3 lg:col-3">
+                        <div className="col-12 lg:col-12">
                             <img src={logo} alt="babylon-layout" className="footer-logo"/>
                         </div>
+                        {/* <div className="col-3 lg:col-3 offices">
+                            <span>Arapongas - PR</span>
+                            <span>Fone: (43) 3172-4700</span>
+                            <span>Rua Flamingos, 1079 - Centro</span>
+                            <span>CEP: 86700-150</span>
+                        </div>
+
+                        <div className="col-3 lg:col-3 offices">
+                            <span>Astorga - PR</span>
+                            <span>Fone: (44) 3234-1696</span>
+                            <span>Rua Nossa Senhora Aparecida, 156</span>
+                            <span>(esquina c/ Rua Beija Flor)</span>
+                            <span>CEP: 86730-000</span>
+                        </div>
+
+                        <div className="col-3 lg:col-3 offices">
+                            <span>Rolândia - PR</span>
+                            <span>Fone: (43) 99924-9744</span>
+                            <span>Rua Romário Martns, 28 - Centro</span>
+                            <span>CEP: 86600-103</span>
+                        </div> */}
+                    </div>
+
+                    <div className='footerSectionBreak'></div>
+
+                    <div className='offices-info'>
                         <div className="col-3 lg:col-3 offices">
                             <span>Arapongas - PR</span>
                             <span>Fone: (43) 3172-4700</span>
@@ -240,6 +256,7 @@ const LandingPage = () => {
                             <span>CEP: 86600-103</span>
                         </div>
                     </div>
+
                 </div>
             </div>
             <button style={{position:'fixed', right:'32px', bottom:'32px', zIndex:'9999', height:'64px', width:'64px', borderRadius:'50%', backgroundColor:'#2ecc71', border:'none'}}>
