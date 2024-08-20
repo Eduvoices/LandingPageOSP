@@ -193,7 +193,7 @@ const LandingPage = () => {
                                         <label htmlFor="address">Mensagem</label>
                                         <InputTextarea id="address" rows="4" style={{resize:'none'}} name='message'/>
                                     </div>
-                                    <input type="hidden" name="_next" value='https://tecjusfrontend.vercel.app/#/thankYou' />
+                                    <input type="hidden" name="_next" value='https://landing-page-osp.vercel.app/#/thankYou' />
                                 </div>
                                 <div className='button-div'>
                                     <Button type='submit' label='Enviar'/>
@@ -208,27 +208,6 @@ const LandingPage = () => {
                         <div className="col-12 lg:col-12">
                             <img src={logo} alt="babylon-layout" className="footer-logo"/>
                         </div>
-                        {/* <div className="col-3 lg:col-3 offices">
-                            <span>Arapongas - PR</span>
-                            <span>Fone: (43) 3172-4700</span>
-                            <span>Rua Flamingos, 1079 - Centro</span>
-                            <span>CEP: 86700-150</span>
-                        </div>
-
-                        <div className="col-3 lg:col-3 offices">
-                            <span>Astorga - PR</span>
-                            <span>Fone: (44) 3234-1696</span>
-                            <span>Rua Nossa Senhora Aparecida, 156</span>
-                            <span>(esquina c/ Rua Beija Flor)</span>
-                            <span>CEP: 86730-000</span>
-                        </div>
-
-                        <div className="col-3 lg:col-3 offices">
-                            <span>Rolândia - PR</span>
-                            <span>Fone: (43) 99924-9744</span>
-                            <span>Rua Romário Martns, 28 - Centro</span>
-                            <span>CEP: 86600-103</span>
-                        </div> */}
                     </div>
 
                     <div className='footerSectionBreak'></div>

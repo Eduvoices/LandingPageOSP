@@ -421,4 +421,70 @@
           width: 40%;
       }
     }
+    .exception-body {
+        padding: 0;
+        margin: 0;
+        min-height: 100vh;
+      }
+      .exception-body .exception-panel {
+        display: none;
+      }
+      .exception-body .exception-content {
+        position: fixed;
+        padding: 80px 0;
+        margin: 0 auto;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+      }
+      .exception-body .exception-content img {
+        display: inline-block;
+        margin-bottom: 160px;
+        width: 400px;
+      }
+      .exception-body .exception-content h1 {
+        font-size: 28px;
+        font-weight: 500;
+        margin: 14px 0;
+        color: #212121;
+      }
+      .exception-body .exception-content h1 .exception-name {
+        color: #727272;
+      }
+      .exception-body .exception-content p {
+        font-size: 17px;
+        color: #727272;
+        margin: 0 0 32px 0;
+      }
+      .exception-body .exception-content button {
+        background-color: #ba1414;
+        padding: 8px;
+        color: #fff;
+        border-radius: 4px;
+      }
+
+      @media screen and (min-width: 768px) {
+        .exception-body .exception-panel {
+          display: block;
+          position: fixed;
+          background-color: #ffffff;
+          height: 200%;
+          width: 85%;
+          left: -50%;
+          top: -50%;
+          opacity: 0.95;
+          filter: alpha(opacity=95);
+          border-radius: 50%;
+        }
+        .exception-body .exception-content {
+          text-align: left;
+          position: fixed;
+          padding: 80px 0 0 80px;
+        }
+        .exception-body.access-denied {
+            background: url("../src/assets/fundo2.jpg");
+            background-size: contain;
+            background-position: right;
+          }
+      }
 
