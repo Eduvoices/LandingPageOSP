@@ -24,7 +24,7 @@ const LandingPage = () => {
                 <div className='info'>
                     <div>
                         <i className="pi pi-clock"></i>
-                        <span>08:00 - 18:00</span>
+                        <span>Horário de Funcionamento das 08:00 às 18:00</span>
                     </div>
 
                     <div>
@@ -138,39 +138,104 @@ const LandingPage = () => {
 
                 <div id="team">
                     <h3>Equipe</h3>
-                    <div className="grid">
-                        <div className="col-12 md:col-12 lg:col-4">
-                            <div className="feature-box">
-                                <img src='https://placehold.co/320x200' alt=''/>
-                                <p>Evandro Cesar Mello de Oliveira - OAB/PR 38.387</p>
-                                <span>Direito Previdenciário</span>
+                    <div style={{ padding:'8px', margin:'24px 0px 24px 0'}}>
+                        <h4>Sócios</h4>
+                        <div className="grid">
+                            <div className="col-12 md:col-12 lg:col-4">
+                                <div className="feature-box">
+                                    <img src='https://placehold.co/320x200' alt=''/>
+                                    <p>Evandro Cesar Mello de Oliveira - OAB/PR 38.387</p>
+                                    <span>Direito Previdenciário</span>
+                                </div>
                             </div>
-                        </div>
 
-                        <div className="col-12 md:col-12 lg:col-4">
-                            <div className="feature-box">
-                                <img src='https://placehold.co/320x200' alt=''/>
-                                <p>Alexandre da Silva - OAB/PR 40.273</p>
-                                <span>Direito Previdenciário</span>
+                            <div className="col-12 md:col-12 lg:col-4">
+                                <div className="feature-box">
+                                    <img src='https://placehold.co/320x200' alt=''/>
+                                    <p>Alexandre da Silva - OAB/PR 40.273</p>
+                                    <span>Direito Previdenciário</span>
+                                </div>
                             </div>
-                        </div>
 
-                        <div className="col-12 md:col-12 lg:col-4">
-                            <div className="feature-box">
-                                <img src='https://placehold.co/320x200' alt=''/>
-                                <p>Reynaldo Bezerra Pelosi - OAB/PR 65.803</p>
-                                <span>Direito Previdenciário</span>
-                            </div>
-                        </div>
-
-                        <div className="col-12 md:col-12 lg:col-4">
-                            <div className="feature-box">
-                                <img src='https://placehold.co/320x200' alt=''/>
-                                <p>Eduardo Marcelo Pinotti - OAB/PR 43.765</p>
-                                <span>Direito Civil, Trabalho e Família</span>
+                            <div className="col-12 md:col-12 lg:col-4">
+                                <div className="feature-box">
+                                    <img src='https://placehold.co/320x200' alt=''/>
+                                    <p>Reynaldo Bezerra Pelosi - OAB/PR 65.803</p>
+                                    <span>Direito Previdenciário</span>
+                                </div>
                             </div>
                         </div>
                     </div>
+
+                    <div className='grid'>
+                        <div style={{ padding:'8px', margin:'24px 0px'}} className="col-12 md:col-12 lg:col-12">
+                            <h4>Equipe Jurídica</h4>
+                            <div className="grid">
+                                    <div className="col-12 md:col-12 lg:col-4">
+                                        <div className="feature-box">
+                                            <img src='https://placehold.co/320x200' alt=''/>
+                                            <p>Amanda Rett Homen - OAB/PR 96.937</p>
+                                            <span>Advogada</span>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-12 md:col-12 lg:col-4">
+                                        <div className="feature-box">
+                                            <img src='https://placehold.co/320x200' alt=''/>
+                                            <p>Nikolas de Araújo Jacob - OAB/PR 109.419</p>
+                                            <span>Advogado</span>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-12 md:col-12 lg:col-4">
+                                            <div className="feature-box">
+                                                <img src='https://placehold.co/320x200' alt=''/>
+                                                <p>Elison de Oliveira de Campos</p>
+                                                <span>Auxiliar Jurídico</span>
+                                            </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='grid'>
+                    <div style={{ padding:'8px', margin:'24px 0 24px 0px'}} className="col-12 md:col-12 lg:col-4">
+                            <h4>Auxiliar Geral</h4>
+                            <div className="grid">
+                                        <div className="col-12 md:col-12 lg:col-12">
+                                            <div className="feature-box">
+                                                <img src='https://placehold.co/320x200' alt=''/>
+                                                <p>Ana Cláudia da Silva</p>
+                                            </div>
+                                        </div>
+                            </div>
+                        </div>
+
+                        <div style={{ padding:'8px', margin:'24px 0 24px 0px'}} className="col-12 md:col-12 lg:col-4">
+                            <h4>Secretária</h4>
+                            <div className="grid">
+                                        <div className="col-12 md:col-12 lg:col-12">
+                                            <div className="feature-box">
+                                                <img src='https://placehold.co/320x200' alt=''/>
+                                                <p>Paula Fernanda da Silva</p>
+                                            </div>
+                                        </div>
+                            </div>
+                        </div>
+
+                        <div style={{ padding:'8px', margin:'24px 0 24px 0px'}} className="col-12 md:col-12 lg:col-4">
+                            <h4>Direito Trabalhista, Cível e Família</h4>
+                            <div className="grid">
+                                <div className="col-12 md:col-12 lg:col-4">
+                                    <div className="feature-box">
+                                        <img src='https://placehold.co/320x200' alt=''/>
+                                        <p>Eduardo Marcelo Pinotti - OAB/PR 43.765</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
 
                 <div className='sectionBreak'></div>
