@@ -226,7 +226,7 @@ const LandingPage = () => {
                         <div style={{ padding:'8px', margin:'24px 0 24px 0px'}} className="col-12 md:col-12 lg:col-4">
                             <h4>Direito Trabalhista, Cível e Família</h4>
                             <div className="grid">
-                                <div className="col-12 md:col-12 lg:col-4">
+                                <div className="col-12 md:col-12 lg:col-12">
                                     <div className="feature-box">
                                         <img src='https://placehold.co/320x200' alt=''/>
                                         <p>Eduardo Marcelo Pinotti - OAB/PR 43.765</p>
