@@ -29,7 +29,7 @@ const LandingPage = () => {
 
                     <div>
                         <i className="pi pi-mail"></i>
-                        <span>atendimento@advprevpr.com.br</span>
+                        <span>contato@advprev.com.br</span>
                     </div>
 
                 </div>
@@ -84,7 +84,7 @@ const LandingPage = () => {
 
                     <div className="header-content">
                         <h1>Oliveira, Silva & Pelosi</h1>
-                        <p>Escritório de Advocacia</p>
+                        <p>Advocacia Previdenciária</p>
 
                         <span>Designed by Freepik</span>
                     </div>
@@ -169,7 +169,7 @@ const LandingPage = () => {
 
                     <div className='grid'>
                         <div style={{ padding:'8px', margin:'24px 0px'}} className="col-12 md:col-12 lg:col-12">
-                            <h4>Equipe Jurídica</h4>
+                            <h4>Equipe Jurídica Previdenciária</h4>
                             <div className="grid">
                                     <div className="col-12 md:col-12 lg:col-4">
                                         <div className="feature-box">
@@ -199,17 +199,18 @@ const LandingPage = () => {
                     </div>
 
                     <div className='grid'>
-                    <div style={{ padding:'8px', margin:'24px 0 24px 0px'}} className="col-12 md:col-12 lg:col-4">
-                            <h4>Auxiliar Geral</h4>
+                        <div style={{ padding:'8px', margin:'24px 0 24px 0px'}} className="col-12 md:col-12 lg:col-4">
+                            <h4>Direito Trabalhista, Cível e Família</h4>
                             <div className="grid">
-                                        <div className="col-12 md:col-12 lg:col-12">
-                                            <div className="feature-box">
-                                                <img src='https://placehold.co/320x200' alt=''/>
-                                                <p>Ana Cláudia da Silva</p>
-                                            </div>
-                                        </div>
+                                <div className="col-12 md:col-12 lg:col-12">
+                                    <div className="feature-box">
+                                        <img src='https://placehold.co/320x200' alt=''/>
+                                        <p>Eduardo Marcelo Pinotti - OAB/PR 43.765</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+
 
                         <div style={{ padding:'8px', margin:'24px 0 24px 0px'}} className="col-12 md:col-12 lg:col-4">
                             <h4>Secretária</h4>
@@ -224,14 +225,14 @@ const LandingPage = () => {
                         </div>
 
                         <div style={{ padding:'8px', margin:'24px 0 24px 0px'}} className="col-12 md:col-12 lg:col-4">
-                            <h4>Direito Trabalhista, Cível e Família</h4>
+                            <h4>Auxiliar Geral</h4>
                             <div className="grid">
-                                <div className="col-12 md:col-12 lg:col-12">
-                                    <div className="feature-box">
-                                        <img src='https://placehold.co/320x200' alt=''/>
-                                        <p>Eduardo Marcelo Pinotti - OAB/PR 43.765</p>
-                                    </div>
-                                </div>
+                                        <div className="col-12 md:col-12 lg:col-12">
+                                            <div className="feature-box">
+                                                <img src='https://placehold.co/320x200' alt=''/>
+                                                <p>Ana Cláudia da Silva</p>
+                                            </div>
+                                        </div>
                             </div>
                         </div>
                     </div>
@@ -244,7 +245,11 @@ const LandingPage = () => {
                     <h3>Contato</h3>
                     <div className="col-12">
                         <div className="card">
-                            <form action='https://formsubmit.co/atendimento@advprev.com.br' method="POST">
+                            <form action="https://api.staticforms.xyz/submit" method="post">
+                            <input type="hidden" name="accessKey" value="5915ca17-4fbc-4a4d-b43d-98e0a81d7e9c" />
+                            <input type="hidden" name="redirectTo" value="https://landing-page-osp.vercel.app/#/thankYou" />
+
+
                                 <div className="p-fluid formgrid grid">
                                     <div className="field col-12 md:col-6">
                                         <label htmlFor="firstname2">Nome completo</label>
@@ -258,7 +263,6 @@ const LandingPage = () => {
                                         <label htmlFor="address">Mensagem</label>
                                         <InputTextarea id="address" rows="4" style={{resize:'none'}} name='message'/>
                                     </div>
-                                    <input type="hidden" name="_next" value='https://landing-page-osp.vercel.app/#/thankYou' />
                                 </div>
                                 <div className='button-div'>
                                     <Button type='submit' label='Enviar'/>
@@ -266,9 +270,10 @@ const LandingPage = () => {
                             </form>
                         </div>
                     </div>
+
                 </div>
 
-                <div id="footer" >
+                <div id="footer" style={{position:'relative'}}>
                     <div className="grid">
                         <div className="col-12 lg:col-12">
                             <img src={logo} alt="babylon-layout" className="footer-logo"/>
@@ -300,6 +305,8 @@ const LandingPage = () => {
                             <span>CEP: 86600-103</span>
                         </div>
                     </div>
+
+                    <span style={{position:'absolute', bottom:'0', padding:'8px', color:'#fff'}}>Desenvolvido por <a href='https://tecjus.com.br/'>tecjus.com.br</a></span>
 
                 </div>
             </div>
