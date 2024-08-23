@@ -84,7 +84,7 @@ const LandingPage = () => {
 
                     <div className="header-content">
                         <h1>Oliveira, Silva & Pelosi</h1>
-                        <p>Advocacia Previdenciária</p>
+                        <p><b>Advocacia Previdenciária</b></p>
 
                         <span>Designed by Freepik</span>
                     </div>
@@ -139,7 +139,7 @@ const LandingPage = () => {
                 <div id="team">
                     <h3>Equipe</h3>
                     <div style={{ padding:'8px', margin:'24px 0px 24px 0'}}>
-                        <h4>Sócios</h4>
+                        <h4 style={{color:'#cc1515'}}>Sócios</h4>
                         <div className="grid">
                             <div className="col-12 md:col-12 lg:col-4">
                                 <div className="feature-box">
@@ -169,7 +169,7 @@ const LandingPage = () => {
 
                     <div className='grid'>
                         <div style={{ padding:'8px', margin:'24px 0px'}} className="col-12 md:col-12 lg:col-12">
-                            <h4>Equipe Jurídica Previdenciária</h4>
+                            <h4 style={{color:'#cc1515'}}>Equipe Jurídica Previdenciária</h4>
                             <div className="grid">
                                     <div className="col-12 md:col-12 lg:col-4">
                                         <div className="feature-box">
@@ -200,7 +200,7 @@ const LandingPage = () => {
 
                     <div className='grid'>
                         <div style={{ padding:'8px', margin:'24px 0 24px 0px'}} className="col-12 md:col-12 lg:col-4">
-                            <h4>Direito Trabalhista, Cível e Família</h4>
+                            <h4><b>Direito Trabalhista, Cível e Família</b></h4>
                             <div className="grid">
                                 <div className="col-12 md:col-12 lg:col-12">
                                     <div className="feature-box">
@@ -213,7 +213,7 @@ const LandingPage = () => {
 
 
                         <div style={{ padding:'8px', margin:'24px 0 24px 0px'}} className="col-12 md:col-12 lg:col-4">
-                            <h4>Secretária</h4>
+                            <h4><b>Secretária</b></h4>
                             <div className="grid">
                                         <div className="col-12 md:col-12 lg:col-12">
                                             <div className="feature-box">
@@ -225,7 +225,7 @@ const LandingPage = () => {
                         </div>
 
                         <div style={{ padding:'8px', margin:'24px 0 24px 0px'}} className="col-12 md:col-12 lg:col-4">
-                            <h4>Auxiliar Geral</h4>
+                            <h4><b>Auxiliar Geral</b></h4>
                             <div className="grid">
                                         <div className="col-12 md:col-12 lg:col-12">
                                             <div className="feature-box">
@@ -313,6 +313,7 @@ const LandingPage = () => {
             <button style={{position:'fixed', right:'32px', bottom:'32px', zIndex:'9999', height:'64px', width:'64px', borderRadius:'50%', backgroundColor:'#2ecc71', border:'none'}}>
                 <a href='https://wa.me/554331724700' target='_blank' rel='noreferrer'>
                     <i className='pi pi-whatsapp' style={{color:'#fff', fontSize:'2rem'}}></i>
+
                 </a>
             </button>
     </div>
