@@ -106,9 +106,11 @@
       max-width: 440px;
     }
     .landing-body .landing-wrapper #header .header-content p {
-      font-size: 17px;
+      font-size: 20px;
       margin-bottom: 24px;
       color: #000;
+      text-align: center;
+      width: 75%;
     }
     .landing-body .landing-wrapper #header .header-content span {
         position: absolute;

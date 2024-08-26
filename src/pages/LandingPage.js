@@ -28,8 +28,8 @@ const LandingPage = () => {
                     </div>
 
                     <div>
-                        <i className="pi pi-mail"></i>
-                        <span>contato@advprev.com.br</span>
+                        <i className="pi pi-envelope"></i>
+                        <span>Email: contato@advprev.com.br</span>
                     </div>
 
                 </div>
@@ -83,8 +83,10 @@ const LandingPage = () => {
                     </div>
 
                     <div className="header-content">
-                        <h1>Oliveira, Silva & Pelosi</h1>
-                        <p><b>Advocacia Previdenciária</b></p>
+                        <div style={{display:'flex', flexDirection:'column', width:'40%'}}>
+                            <h1>Oliveira, Silva & Pelosi</h1>
+                            <p><b>Advocacia Previdenciária</b></p>
+                        </div>
 
                         <span>Designed by Freepik</span>
                     </div>
