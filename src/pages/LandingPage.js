@@ -146,7 +146,7 @@ const LandingPage = () => {
                             <div className="col-12 md:col-12 lg:col-4">
                                 <div className="feature-box">
                                     <img src='https://placehold.co/320x200' alt=''/>
-                                    <p>Evandro Cesar Mello de Oliveira - OAB/PR 38.387</p>
+                                    <p>Dr. Evandro Cesar Mello de Oliveira - OAB/PR 38.387</p>
                                     <span>Direito Previdenciário</span>
                                 </div>
                             </div>
@@ -154,7 +154,7 @@ const LandingPage = () => {
                             <div className="col-12 md:col-12 lg:col-4">
                                 <div className="feature-box">
                                     <img src='https://placehold.co/320x200' alt=''/>
-                                    <p>Alexandre da Silva - OAB/PR 40.273</p>
+                                    <p>Dr. Alexandre da Silva - OAB/PR 40.273</p>
                                     <span>Direito Previdenciário</span>
                                 </div>
                             </div>
@@ -162,7 +162,7 @@ const LandingPage = () => {
                             <div className="col-12 md:col-12 lg:col-4">
                                 <div className="feature-box">
                                     <img src='https://placehold.co/320x200' alt=''/>
-                                    <p>Reynaldo Bezerra Pelosi - OAB/PR 65.803</p>
+                                    <p>Dr. Reynaldo Bezerra Pelosi - OAB/PR 65.803</p>
                                     <span>Direito Previdenciário</span>
                                 </div>
                             </div>
@@ -176,7 +176,7 @@ const LandingPage = () => {
                                     <div className="col-12 md:col-12 lg:col-4">
                                         <div className="feature-box">
                                             <img src='https://placehold.co/320x200' alt=''/>
-                                            <p>Amanda Rett Homen - OAB/PR 96.937</p>
+                                            <p>Dra. Amanda Rett Homen - OAB/PR 96.937</p>
                                             <span>Advogada</span>
                                         </div>
                                     </div>
@@ -184,7 +184,7 @@ const LandingPage = () => {
                                     <div className="col-12 md:col-12 lg:col-4">
                                         <div className="feature-box">
                                             <img src='https://placehold.co/320x200' alt=''/>
-                                            <p>Nikolas de Araújo Jacob - OAB/PR 109.419</p>
+                                            <p>Dr. Nikolas de Araújo Jacob - OAB/PR 109.419</p>
                                             <span>Advogado</span>
                                         </div>
                                     </div>
@@ -201,6 +201,37 @@ const LandingPage = () => {
                     </div>
 
                     <div className='grid'>
+                        <div style={{ padding:'8px', margin:'24px 0px'}} className="col-12 md:col-12 lg:col-12">
+                            <h4 style={{color:'#cc1515'}}>Outros colaboradores</h4>
+                            <div className="grid">
+                                    <div className="col-12 md:col-12 lg:col-4">
+                                        <div className="feature-box">
+                                            <img src='https://placehold.co/320x200' alt=''/>
+                                            <p>Dr. Eduardo Marcelo Pinotti - OAB/PR 43.765</p>
+                                            <span>Direito Trabalhista, Cível e Família</span>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-12 md:col-12 lg:col-4">
+                                        <div className="feature-box">
+                                            <img src='https://placehold.co/320x200' alt=''/>
+                                            <p>Paula Fernanda da Silva</p>
+                                            <span>Secretária</span>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-12 md:col-12 lg:col-4">
+                                            <div className="feature-box">
+                                                <img src='https://placehold.co/320x200' alt=''/>
+                                                <p>Ana Cláudia da Silva</p>
+                                                <span>Auxiliar Geral</span>
+                                            </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* <div className='grid'>
                         <div style={{ padding:'8px', margin:'24px 0 24px 0px'}} className="col-12 md:col-12 lg:col-4">
                             <h4><b>Direito Trabalhista, Cível e Família</b></h4>
                             <div className="grid">
@@ -237,7 +268,7 @@ const LandingPage = () => {
                                         </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                 </div>
 
