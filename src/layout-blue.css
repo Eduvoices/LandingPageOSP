@@ -310,10 +310,10 @@
 
     @media screen and (min-width: 992px) {
       .landing-body .landing-wrapper #header .header-content {
-        background: url("../src/assets/fundo2.jpg") no-repeat;
-        /* background-position: right 50%; */
-        background-size: 2000px 600px;
-        height: 600px;
+        background: url("../src/assets/justitia-2597016_1280-removebg-preview.png") no-repeat;
+        background-position: center 50%;
+        background-size: 800px 400px;
+        height: 400px;
       }
     }
     @media screen and (max-width: 991px) {

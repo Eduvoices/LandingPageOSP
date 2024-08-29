@@ -82,13 +82,13 @@ const LandingPage = () => {
                             </ul>
                     </div>
 
+                    <div className='sectionBreak'></div>
+
                     <div className="header-content">
                         <div style={{display:'flex', flexDirection:'column', width:'40%'}}>
                             <h1>Oliveira, Silva & Pelosi</h1>
                             <p><b>Advocacia Previdenciária</b></p>
                         </div>
-
-                        <span>Designed by Freepik</span>
                     </div>
                 </div>
 
@@ -202,7 +202,7 @@ const LandingPage = () => {
 
                     <div className='grid'>
                         <div style={{ padding:'8px', margin:'24px 0px'}} className="col-12 md:col-12 lg:col-12">
-                            <h4 style={{color:'#cc1515'}}>Outros colaboradores</h4>
+                            <h4 style={{color:'#cc1515'}}>Outros Colaboradores</h4>
                             <div className="grid">
                                     <div className="col-12 md:col-12 lg:col-4">
                                         <div className="feature-box">
